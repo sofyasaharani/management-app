@@ -1,4 +1,4 @@
-### MERN-Stack-Tutorial
+##### MERN-Stack-Tutorial
 All course files for the MERN Stack Tutorial course on the Net Ninja YouTube channel & the Net Ninja Pro website.
 
 ### How to use
