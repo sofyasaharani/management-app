@@ -1,0 +1,172 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap");
+
+:root {
+  --color-primary: #051d2f;
+  --color-secondary: #041420;
+  --color-text: #dee2e6;
+  --color-text-dark: #333538;
+  --color-background-100: #2d3c44;
+  --color-background-500: #32383f;
+  --color-background-900: #1b262c;
+  --color-red: #fa9884;
+  --color-red-dark: #e74646;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary-light);
+  border-radius: 20px;
+  border: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-primary);
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container-home {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* NAVBAR  */
+.navbar-container {
+  height: 5rem;
+  background-color: #041420;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 0.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.nav-info h2 {
+  font-size: 1em;
+}
+
+.nav-info p {
+  font-size: 0.8em;
+  color: #9b9c9e;
+}
+
+.myStrongText {
+  color: white;
+}
+
+.nav-content {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-container .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-container .search {
+  justify-self: center;
+  border: none;
+  font-size: 0.8em;
+  background-color: var(--color-secondary);
+  width: 100px;
+}
+
+.search-container a {
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient(
+    to left,
+    rgba(215, 237, 237, 0.1),
+    rgba(204, 235, 235, 0)
+  );
+  border-radius: 4px;
+  border: solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-container .search:focus {
+  outline: none;
+  color: white;
+}
+
+.navbar-container .search-results {
+  font-size: 1.5rem;
+}
+
+.nav-content button {
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgba(5, 29, 47, 1),
+    rgba(21, 86, 134, 1)
+  );
+}
+
+.nav-content .project svg {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-content .button p {
+  font-size: 14px;
+}
+
+.button.blue {
+  background: linear-gradient(
+    to right,
+    rgba(21, 86, 134, 1),
+    rgba(5, 29, 47, 1)
+  );
+
+  color: white;
+}

@@ -1,0 +1,123 @@
+/**
+ * SIDEBAR
+ *
+ * @format
+ */
+
+/** @format */
+
+.side-bar_container {
+  /* position: fixed; */
+  max-width: 20rem;
+  height: 97vh;
+  top: 0;
+  bottom: 0;
+  background-color: #041420;
+  border-radius: 10px;
+  margin: 0.6rem;
+}
+
+.side-bar p {
+  margin-left: 8px;
+}
+
+.profile-container {
+  border-bottom: solid 1px #092e49;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+
+.profile button {
+  padding: 2px 8px;
+  border-radius: 5px;
+  border: 1px solid;
+  color: #ffffff;
+  border-style: none;
+  background-color: #2dc0ee;
+  margin-top: 5px;
+}
+
+.profile h1 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.profile img {
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 90%;
+}
+
+.side-bar .general {
+  margin-bottom: 1.5rem;
+}
+
+.side-bar p {
+  font-size: 0.8em;
+  color: #767676;
+}
+
+.side-bar button {
+  height: 48px;
+  width: 290px;
+  border-radius: 8px;
+  border: none;
+  background-color: #041420;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 16px 14px;
+}
+
+.side-bar.button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.button p {
+  font-size: 0.9em;
+  color: white;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.side-bar .personal svg {
+  color: #b6f09c;
+}
+
+.side-bar .community svg {
+  color: #d0302f;
+}
+
+.side-bar .project svg {
+  color: #ffffff;
+}
+
+.side-bar .billing svg {
+  color: #686b6e;
+}
+
+.side-bar svg {
+  font-size: 20px;
+}
